@@ -14,11 +14,11 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
+	//splitEnvironmentSourceSets()
 	mods {
 		"tickrateplayers" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
+			//sourceSet sourceSets.client
 		}
 	}
 }
