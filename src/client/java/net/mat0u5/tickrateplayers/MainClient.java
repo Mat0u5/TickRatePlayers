@@ -1,4 +1,4 @@
-package net.mat0u5.modid;
+package net.mat0u5.tickrateplayers;
 
 import net.fabricmc.api.ClientModInitializer;
 

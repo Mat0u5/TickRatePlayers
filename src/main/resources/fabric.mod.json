@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "tickrateplayers",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Tick Rate Players",
+	"description": "Allows players to tick faster when using the vanilla tick rate command, just like other entities.",
 	"authors": [
 		"Mat0u5"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Mat0u5/FabricModTemplate"
+		"sources": "https://github.com/Mat0u5/TickRatePlayers"
 	},
 	"license": "MIT",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/tickrateplayers/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mat0u5.modid.Main"
+			"net.mat0u5.tickrateplayers.Main"
 		],
 		"client": [
-			"net.mat0u5.modid.MainClient"
+			"net.mat0u5.tickrateplayers.MainClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json"
+		"tickrateplayers.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
